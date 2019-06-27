@@ -1,5 +1,4 @@
 const imgs = document.querySelectorAll("img");
-
 let y = 0;
 for(let x = 0;x < imgs.length;x++){
     let src = imgs[x].src;
