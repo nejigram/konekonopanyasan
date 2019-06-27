@@ -379,9 +379,8 @@ a:visited{
     text-align:center;
     width: 100%;
 }
-.box div img{
-    width: 10%;
-}
+
+
 .box:first-child{
     z-index:100;
 }
@@ -420,4 +419,22 @@ a:visited{
 }
 .box:nth-child(13){
     z-index: 1300;
+}
+.box:nth-child(14){
+    z-index: 1400;
+}
+.box:nth-child(15){
+    z-index: 1500;
+}
+.box:nth-child(16){
+    z-index: 1600;
+}
+.box:nth-child(17){
+    z-index: 1700;
+}
+.box:nth-child(18){
+    z-index: 1800;
+}
+.box:nth-child(19){
+    z-index: 1900;
 }
