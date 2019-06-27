@@ -7,7 +7,9 @@ for(let x = 0;x < imgs.length;x++){
     imgs[x].addEventListener("load",function(){
         y++;
         if(imgs.length <= y){
-            document.querySelector("#loading").classList.add("obj_hide_left");
+            setTimeout(function(){
+                document.querySelector("#loading").classList.add("obj_hide_left");
+            },2000);
         }
     });
     imgs[x].src = src;
